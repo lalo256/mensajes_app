@@ -40,10 +40,10 @@ public class inicio {
                     mensajesService.listarMensajes();
                     break;
                 case 3:
-                    mensajesService.borrarMensaje();
-                    break;
-                case 4:
                     mensajesService.editarMensaje();
+                    break;
+                case 4:                                       
+                    mensajesService.borrarMensaje();
                     break;
                 default:
                     break;
