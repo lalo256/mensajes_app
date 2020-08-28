@@ -34,16 +34,16 @@ public class inicio {
             
             switch (opcion){
                 case 1:
-                   // mensajesService.crearMensaje();
+                    mensajesService.crearMensaje();
                     break;
                 case 2:
-                    //mensajesService.listarMensajes();
+                    mensajesService.listarMensajes();
                     break;
                 case 3:
-                    //mensajesService.borrarMensaje();
+                    mensajesService.borrarMensaje();
                     break;
                 case 4:
-                    //mensajesService.editarMensaje();
+                    mensajesService.editarMensaje();
                     break;
                 default:
                     break;
